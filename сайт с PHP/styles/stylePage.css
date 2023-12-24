@@ -1,0 +1,49 @@
+header,
+footer {
+    text-align: center;
+    background-color: aquamarine;
+    width: 100%;
+    padding: 4px;
+}
+header{
+    top: 0;
+    position: fixed;
+}
+html,body {
+    margin: 0;
+    top:40px;
+}
+footer {
+    bottom: 0;
+}
+
+main {
+    margin: 160px 10px;
+}
+
+p {
+    text-indent: 20px;
+    padding: 0px;
+}
+
+#subtitle {
+    font-size: 24px;
+    font-weight: bold;
+}
+#numberPage{
+    display: inline;
+    text-align: center;;
+}
+.menu-item{
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.current-page {
+    background-color: rgb(255, 255, 255);
+}
+.menu-item:hover{
+    font-size:17px;
+}
+.buttonEntry{
+    top:0;
+}

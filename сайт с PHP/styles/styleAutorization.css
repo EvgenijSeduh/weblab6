@@ -1,0 +1,30 @@
+.authorization {
+    padding: 10px 10px 40px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 400px;
+    background-color: #66FFB2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+	margin:100px auto;
+}
+td{
+	padding:3px;
+}
+table{
+	margin:auto;
+}
+body{
+	margin: 0;
+    padding: 0;
+    background: url("../images/background.jpg");
+    background-size: cover;
+	background-attachment: fixed;
+}
+input{
+	padding:1px;
+}
+.authorization button[onclick] {
+    float: right;
+	font-size:12px;
+}
